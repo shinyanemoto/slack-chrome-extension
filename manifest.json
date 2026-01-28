@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Slack Bracket Highlighter",
+  "version": "0.1.0",
+  "description": "Highlight text inside full-width brackets in Slack sidebar section names.",
+  "permissions": ["storage"],
+  "host_permissions": ["https://*.slack.com/*"],
+  "options_page": "options.html",
+  "content_scripts": [
+    {
+      "matches": ["https://*.slack.com/*"],
+      "js": ["contentScript.js"],
+      "css": ["styles.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}

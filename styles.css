@@ -1,0 +1,10 @@
+:root {
+  --slack-bracket-highlight-color: #fff3a3;
+}
+
+.slack-bracket-highlight {
+  background-color: var(--slack-bracket-highlight-color);
+  border-radius: 3px;
+  padding: 0 2px;
+  font-weight: 600;
+}
