@@ -1,0 +1,1 @@
+# slack-chrome-extension
