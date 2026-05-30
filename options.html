@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Slack Bracket Highlighter Options</title>
+    <link rel="stylesheet" href="options.css" />
+  </head>
+  <body>
+    <main class="options-card">
+      <h1>Slack Bracket Highlighter</h1>
+      <p class="subtitle">
+        Highlight text wrapped in full-width brackets (【...】) within the Slack
+        sidebar.
+      </p>
+
+      <label class="toggle">
+        <input type="checkbox" id="enabled" />
+        <span>Enable highlighting</span>
+      </label>
+
+      <label class="color-picker">
+        <span>Highlight color</span>
+        <input type="color" id="highlightColor" />
+      </label>
+
+      <p class="note">
+        Changes apply immediately to any open Slack tabs.
+      </p>
+    </main>
+    <script src="options.js"></script>
+  </body>
+</html>
